@@ -59,7 +59,7 @@ header #getstarted-button {
     width: 100vw;
     height: 100vh;
     background-image:
-        url(background_image.webp);
+        url(./src/images/hero-2023-v2-desktop-2-1500w.webp);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
