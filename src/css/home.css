@@ -64,14 +64,10 @@ header #getstarted-button {
 #first-section {
     width: 100vw;
     height: 100vh;
-    background-image:
-        url(./src/images/hero-2023-v2-desktop-2-1500w.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
     color: white;
 }
 
-#designedtosell-divison {
+.designedtosell-divison {
     width: 50%;
     height: 50%;
     display: flex;
@@ -79,7 +75,9 @@ header #getstarted-button {
     /* align-content: center; */
     flex-wrap: wrap;
     gap: 30px;
-
+    position: absolute;
+    top: 10vh;
+    left: 3vw;
     h1 {
         height: 5%;
         font-style: normal;
